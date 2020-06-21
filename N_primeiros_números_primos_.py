@@ -1,3 +1,8 @@
+"""
+Escreva uma função que recebe um número n e retorna uma lista com os n primeiros números primos em ordem crescente (adaptado do Ex. 5.24 do livro do Nilo Ney).
+
+O nome da sua função deve ser lista_primos.
+"""
 def eh_primo(n):
     if n == 0 or n==1:
         return False

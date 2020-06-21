@@ -1,3 +1,9 @@
+"""
+Faça uma função que recebe uma lista de números e devolve um dicionário no qual as chaves são os números da lista e os valores são um booleano indicando se aquele número é primo ou não.
+
+O nome da sua função deve ser verifica_primos.
+"""
+
 def eh_primo(n):
     if n <= 1:
         return False

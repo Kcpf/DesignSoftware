@@ -1,9 +1,8 @@
-cont = 0
-file = open("macacos-me-mordam.txt", "r")
-lines = file.readlines()
-for line in file:
-    line = line.strip()
-    for l in line.split():
-        if l.upper() == "BANANA":
-            cont += 1
-print(cont)
+"""
+Faça um programa que abre um arquivo texto chamado macacos-me-mordam.txt e imprime o número de ocorrências da palavra 'banana'. Atenção: palavras com letra maiúscula também devem ser contabilizadas, ou seja, se as palavras aparecerem assum: 'Banana', 'BANANA', 'BaNaNa', devem ser contadas como palavras. Exemplo de texto: 'Banana nanica banana da terra.'
+"""
+
+with open('macacos-me-mordam.txt', 'r') as file:
+    conteudo = str(file.read()).upper()
+    print(conteudo.count("BANANA"))
+    

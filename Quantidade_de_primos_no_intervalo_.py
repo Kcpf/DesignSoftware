@@ -1,3 +1,8 @@
+"""
+Escreva uma função que recebe dois números a e b e devolve a quantidade de números de primos p tais que a≤p≤b.
+
+O nome da sua função deve ser primos_entre.
+"""
 def eh_primo(n):
     if n == 0 or n==1:
         return False

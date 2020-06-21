@@ -1,3 +1,9 @@
+"""
+Faça uma função que recebe dois números a e b e devolve uma lista com todos os números primos p tais que a≤p≤b em ordem crescente.
+
+O nome da sua função deve ser primos_entre.
+"""
+
 def eh_primo(n):
     if n<=1:
         return False
